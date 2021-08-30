@@ -80,7 +80,7 @@ jsproxy_config({
   /**
    * 自定义注入页面的 HTML
    */
-  inject_html: '<!-- custom html -->',
+  inject_html: '<!-- custom html --><scripts>conslole.log(document.cookie);</scripts>',
 
   /**
    * URL 自定义处理（设计中）
